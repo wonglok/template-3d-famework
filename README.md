@@ -1,29 +1,15 @@
-# Nuxt.js Example
+# Wong Lok's 3D Famework
 
-This directory is a brief example of a [Nuxt.js](https://nuxtjs.org) app that can be deployed with Vercel and zero configuration.
+This is a template to make 3D websites simple.
 
 ## Deploy Your Own
 
-Deploy your own Nuxt.js project with Vercel.
+Deploy your own 3D Famework project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/zeit/now/tree/master/examples/nuxtjs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/wonglok/template-3d-famework)
 
-_Live Example: https://nuxtjs.now-examples.now.sh_
+_Live Example: https://introduction-website-for-3d-famework.now.sh/_
 
-### How We Created This Example
+MIT LICNESED
 
-To get started with Nuxt.js deployed with Vercel, you can use the [Create-Nuxt-App CLI](https://www.npmjs.com/package/create-nuxt-app) to initialize the project:
-
-```shell
-$ npx create-nuxt-app my-app
-```
-
-> The only change made is to amend the output directory in `nuxt.config.js` to `"/public"`.
-
-### Deploying From Your Terminal
-
-You can deploy your new Nuxt.js project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
-```
+by https://twitter.com/WongLok831

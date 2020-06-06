@@ -9,14 +9,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Our Together Time',
+    title: 'My 3D FameWork',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'Kindness Content Distribution',
+        content: 'Make WebGL Simple, Easier and More organised',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

@@ -1,61 +1,10 @@
 <template>
   <O3D v-if="layouts && shaderCube">
-    <!--
-      <O3D :animated="true" layout="ball">
-        <Test @click="click"></Test>
-      </O3D> -->
-      <!--
-    -->
-
-    <!-- <O3D :animated="true" layout="deep" v-if="!ready">
-      <ParametricCluster></ParametricCluster>
-    </O3D> -->
-
-    <!-- <O3D :animated="true" layout="cb-inst-1">
-      <O3D :animated="true" layout="cb-rot">
-        <O3D :animated="true" layout="cb-item">
-          <CherryBlossom @ready="onReady"></CherryBlossom>
-        </O3D>
-      </O3D>
-    </O3D> -->
-
-    <!-- <O3D :animated="true" layout="cb-inst-2">
-      <O3D :animated="true" layout="cb-rot">
-        <O3D :animated="true" layout="cb-item"> -->
-        <!-- </O3D>
-      </O3D>
-    </O3D> -->
-
-    <!-- <O3D :animated="true" layout="bgarea"> -->
-      <!-- <RadientBG></RadientBG> -->
-      <!-- <MBLinesSVG></MBLinesSVG> -->
-    <!-- </O3D> -->
-    <!-- <O3D :animated="true" layout="cross"> -->
-    <!-- <HolyCross></HolyCross>
-    -->
-    <!-- <Church></Church> -->
-
-
-    <!-- <LoveloFont :envMap="shaderCube.out.envMap"></LoveloFont> -->
-    <!-- <HolyCross :shaderCube="shaderCube"></HolyCross> -->
-
-    <!-- <SpaceStation :shaderCube="shaderCube"></SpaceStation> -->
-
-    <!-- </O3D> -->
-
-    <!-- <MBLines></MBLines> -->
-
-    <!-- <O3D :animated="true" layout="cb-inst-3">
-      <O3D :animated="true" layout="cb-rot">
-        <O3D :animated="true" layout="cb-item">
-          <CherryBlossom @ready="onReady"></CherryBlossom>
-        </O3D>
-      </O3D>
-    </O3D> -->
 
     <O3D :animated="true" layout="bgarea">
       <Spacewalk :shaderCube="shaderCube"></Spacewalk>
     </O3D>
+
     <!-- <O3D :animated="true" layout="lensarea">
       <LensArea :dudv="'water'"></LensArea>
     </O3D> -->
@@ -122,25 +71,10 @@ export default {
     this.$parent.$emit('scene', this.scene)
     this.$parent.$emit('camera', this.camera)
 
-    // let settingsName = 'holy-cross'
-    // let sdk = this.lookup('sdk')
-    // sdk.onStubGroup(settingsName, (stub) => {
-    //   this.settings[settingsName] = stub
-    // })
-
     let parentScrollBox = this.lookup('scrollBox')
 
     let looper = () => {
-      // if (!parentScrollBox) { return }
-      // if (!this.settings[settingsName]) { return }
-      // let time = window.performance.now() * 0.001
-      // let setting = this.settings[settingsName]
-      // let rotation = setting['holy-cross-rotation']
-      // let translate = setting['holy-cross-translate']
-      // let scale = setting['holy-cross-scale']
-      // let cb1or = setting['flower1-offfset-rotation']
-      // let cb2or = setting['flower2-offfset-rotation']
-      // let cb3or = setting['flower3-offfset-rotation']
+      if (!parentScrollBox) { return }
 
       this.layouts = {
         lensarea: {

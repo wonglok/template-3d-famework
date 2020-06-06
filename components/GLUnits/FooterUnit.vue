@@ -9,15 +9,8 @@
           </div>
           <SpacewalkScene slot="o3d"></SpacewalkScene>
         </ScissorArea>
-        <!--  -->
       </div>
       <div class="lg:w-1/2 relative">
-        <!-- <ScissorArea class="absolute top-0 left-0 right-0 bottom-0" style="z-index: -1;">
-          <div slot="dom" class="full">
-          </div>
-          <HowScene slot="o3d"></HowScene>
-        </ScissorArea> -->
-
         <ByeMessageUnit></ByeMessageUnit>
       </div>
     </div>

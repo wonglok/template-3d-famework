@@ -9,7 +9,7 @@
       </div>
       <div class="px-3 mb-3">
         <div class="inline-block br-3 underline">
-          <a target="_blank" href="https://github.com/wonlgok">Wong Lok's GitHub</a>
+          <a target="_blank" href="https://github.com/wonglok/template-3d-famework">Project GitHub</a>
         </div>
         Or
         <div class="inline-block br-3 underline">

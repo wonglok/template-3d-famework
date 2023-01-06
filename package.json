@@ -21,7 +21,7 @@
     "keyword-extractor": "0.0.19",
     "layout-bmfont-text": "^1.3.4",
     "load-bmfont": "^1.4.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "quad-indices": "^2.0.1",
     "raw-loader": "^4.0.1",
     "slug": "^3.2.0",
